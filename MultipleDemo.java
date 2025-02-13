@@ -33,7 +33,7 @@ class Cylinder implements comparable{
     public int comparebyVolume(comparable other){
          return 1;}
 }
-public class seven{
+public class MultipleDemo{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter length");
