@@ -45,7 +45,7 @@ class  Sphere implements printable,computable,drawable{
     public void draw(){
         System.out.println("Drawing a sphere");}
     }
-public class eight {
+public class interfaceDemo {
     public static void main(String[] args) {
       Scanner s= new Scanner(System.in);
       System.out.println("Enter length");
