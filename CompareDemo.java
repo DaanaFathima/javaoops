@@ -20,7 +20,7 @@ class Rectangle implements compare{
         public double area(){
             return l*w;}
         public double perimeter(){
-            return 2*l*w;}
+            return 2*l+w;}
     }
 public class CompareDemo {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class CompareDemo {
           do{
              
             System.out.println("Enter choice\n1.Rectangle\n2.Circle\n3.Exit\n");
-            1ch=s.nextInt();
+            ch=s.nextInt();
             switch(ch)
             {
                 case 1:System.out.println("Enter length");
