@@ -22,7 +22,7 @@ class Rectangle implements compare{
         public double perimeter(){
             return 2*l*w;}
     }
-public class nine {
+public class CompareDemo {
     public static void main(String[] args) {
             Scanner s= new Scanner(System.in);
             int ch;
